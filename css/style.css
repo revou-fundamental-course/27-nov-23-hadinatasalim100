@@ -1,0 +1,103 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://wallpapers.com/images/hd/math-background-4rwgms93zcd197tv.jpg'); /* Menambahkan gambar noise */
+    background-size: cover;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(255, 69, 0, 0.8);
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    backdrop-filter: blur(10px); /* Menambahkan efek blur pada latar belakang */
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    backdrop-filter: blur(5px); /* Menambahkan efek blur pada latar belakang */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+    color: #555;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 2px solid rgba(255, 69, 0, 0.8);
+    border-radius: 10px;
+}
+
+button {
+    background-color: rgba(255, 99, 71, 0.8);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 69, 0, 0.8);
+}
+
+#result, #perimeter {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(249, 249, 249, 0.9);
+    border-radius: 8px;
+    backdrop-filter: blur(5px); /* Menambahkan efek blur pada latar belakang */
+}
+
+#result p, #perimeter p {
+    margin: 0;
+    color: #555;
+    font-weight: bold;
+}
+
+#area, #keliling {
+    font-size: 1.5em;
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #FFA500;
+    padding: 10px 0;
+    backdrop-filter: blur(10px); /* Menambahkan efek blur pada latar belakang */
+    margin-top: auto;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
